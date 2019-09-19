@@ -1,0 +1,95 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+}
+
+.square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.6s;
+}
+
+#container {
+    max-width: 30%;
+    margin: 40px auto;
+}
+
+#displayColor {
+    font-size: 200%;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+h1 {
+    text-align: center;
+    line-height: 1.1;
+    padding: 20px 0;
+    color: white;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+button {
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 110%;
+}
+
+
+/* This part of my code is being copied from Github to check out their written codese*/
+
+.hover-shadow-box-animation {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+}
+
+.hover-shadow-box-animation:hover,
+.hover-shadow-box-animation:focus,
+.hover-shadow-box-animation:active {
+    box-shadow: 1px 10px 10px -10px rgba(0, 0, 24, 0.5);
+    transform: scale(1.2);
+}
